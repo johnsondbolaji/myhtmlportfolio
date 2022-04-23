@@ -1,0 +1,83 @@
+body {
+  margin: auto 0;
+}
+
+/* Navigation Bar */
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0;
+  }
+}
+
+.red {
+  background-color: brown;
+}
+.push {
+  margin-left: auto;
+}
+li {
+  padding: 10px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Cover */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+.orange {
+  background-color: beige;
+  border: 20px solid brown;
+  font-size: 1em;
+}
+
+/* Grid */
+
+.grid-wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  margin: 0;
+}
+.yellow {
+  background-color: brown;
+}
+
+.box > img {
+  width: 100%;
+}
+
+.box {
+  background-color: beige;
+  margin: 20px;
+  transition: all 1s;
+}
+img:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+}
+.green {
+  background-color: beige;
+  color: brown;
+  font-size: 0.8em;
+}
